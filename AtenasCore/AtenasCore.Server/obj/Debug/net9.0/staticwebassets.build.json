@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NXg/YXYjxJFd81yNlYvFj9WlWg70FiHUa03qNHNhhA4=",
+  "Source": "AtenasCore.Server",
+  "BasePath": "_content/AtenasCore.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

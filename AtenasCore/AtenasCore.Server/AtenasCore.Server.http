@@ -1,0 +1,6 @@
+@AtenasCore.Server_HostAddress = http://localhost:5038
+
+GET {{AtenasCore.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
