@@ -137,9 +137,11 @@ namespace AtenasCore.Server.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PaymentType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("PaymentType")
+                        .HasColumnType("int");
 
                     b.Property<int>("Receipt")
                         .HasColumnType("int");

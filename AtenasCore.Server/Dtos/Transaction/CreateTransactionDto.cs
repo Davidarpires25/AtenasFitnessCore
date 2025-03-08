@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace AtenasCore.Server.Models
 {
@@ -7,7 +9,8 @@ namespace AtenasCore.Server.Models
         
         public string AppUserId {get;set;}
         public int MembershipId {get;set;}      
-        public required string PaymentType {get;set;}
+        public required PaymentType PaymentType {get;set;}
+        
     
      
      

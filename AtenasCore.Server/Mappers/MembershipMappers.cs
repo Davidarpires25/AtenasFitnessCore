@@ -5,7 +5,7 @@ namespace AtenasCore.Server.Mappers
 {
     public static class membershipMappers{
 
-          public static MembershipDto ToMembershipFromCreateDto(this Membership membership){
+          public static MembershipDto ToCreateDtoFromMembership(this Membership membership){
             return new MembershipDto{
                 Id= membership.Id,
                 Name=membership.Name,

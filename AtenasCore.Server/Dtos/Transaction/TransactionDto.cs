@@ -11,7 +11,7 @@ namespace AtenasCore.Server.Models
         public string AppUserId {get;set;}
         public int MembershipId {get;set;}      
         public DateTime CreatedOn {get;set;}
-        public required string PaymentType {get;set;}
+        public required PaymentType PaymentType {get;set;}
         public ImageFileMachine Receipt {get;set;}
      
     }
