@@ -183,7 +183,6 @@ namespace AtenasCore.Server.Migrations
                 {
                     AppUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     MembershipId = table.Column<int>(type: "int", nullable: false),
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PaymentType = table.Column<int>(type: "int", nullable: false),
                     Receipt = table.Column<int>(type: "int", nullable: false)

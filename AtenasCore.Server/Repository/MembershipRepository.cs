@@ -22,7 +22,7 @@ namespace AtenasCore.Server.Repository
 
         }
 
-        public async Task<Membership?> DeleteMembership(int id)
+        public async Task<Membership?> DeleteAsync(int id)
         {
             var model= await _dbContext.Memberships.FirstOrDefaultAsync(membership => membership.Id==id);
             if(model==null){
@@ -32,6 +32,20 @@ namespace AtenasCore.Server.Repository
             await _dbContext.SaveChangesAsync();
 
             return model;
+        }
+
+        public async Task<List<Membership>> GetAllAsync()
+        {
+            return await _dbContext.Memberships.ToListAsync();
+        }
+
+        public Task<Membership?> GetByIdAsync(int id)
+        {
+            var membershipModel= _dbContext.Memberships.FirstOrDefaultAsync(x=>x.Id==id);
+            if(membershipModel==null){
+                return null;
+            }
+            return membershipModel;
         }
 
         public async Task<Membership?> UpdateAsync(int id,Membership membershipUpdate)

@@ -3,9 +3,9 @@ using AtenasCore.Server.Models;
 
 namespace AtenasCore.Server.Mappers
 {
-    public static class membershipMappers{
+    public static class MembershipMappers{
 
-          public static MembershipDto ToCreateDtoFromMembership(this Membership membership){
+          public static MembershipDto ToMembershipDto(this Membership membership){
             return new MembershipDto{
                 Id= membership.Id,
                 Name=membership.Name,
@@ -15,7 +15,7 @@ namespace AtenasCore.Server.Mappers
 
         }
 
-        public static Membership ToMembershipFromCreateDto(this CreateMembershipDto membershipDto){
+        public static Membership ToMembership(this CreateMembershipDto membershipDto){
             return new Membership{
                 Name=membershipDto.Name,
                 Price= membershipDto.Price,

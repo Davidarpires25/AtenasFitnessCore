@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AtenasCore.Server.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20250307231903_init")]
+    [Migration("20250309011337_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -139,9 +139,6 @@ namespace AtenasCore.Server.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
-
-                    b.Property<Guid>("Id")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("PaymentType")
                         .HasColumnType("int");

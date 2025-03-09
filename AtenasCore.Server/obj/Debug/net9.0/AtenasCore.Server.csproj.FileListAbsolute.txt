@@ -341,3 +341,4 @@ C:\Users\david\OneDrive\Escritorio\Proyecto\AtenasFitnessCore\AtenasCore.Server\
 C:\Users\david\OneDrive\Escritorio\Proyecto\AtenasFitnessCore\AtenasCore.Server\obj\Debug\net9.0\AtenasCo.083AE025.Up2Date
 C:\Users\david\OneDrive\Escritorio\Proyecto\AtenasFitnessCore\AtenasCore.Server\obj\Debug\net9.0\AtenasCore.Server.genruntimeconfig.cache
 C:\Users\david\OneDrive\Escritorio\Proyecto\AtenasFitnessCore\AtenasCore.Server\obj\Debug\net9.0\ref\AtenasCore.Server.dll
+C:\Users\david\OneDrive\Escritorio\Proyecto\AtenasFitnessCore\AtenasCore.Server\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

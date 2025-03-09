@@ -18,9 +18,7 @@ namespace AtenasCore.Server.Models
 {
     [Table("Transactions")]
     public class Transaction{
-        
-        [Key]
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public int Id;
         public string AppUserId {get;set;}
         public int MembershipId {get;set;}      
 

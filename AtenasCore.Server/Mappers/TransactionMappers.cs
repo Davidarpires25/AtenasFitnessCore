@@ -5,7 +5,7 @@ namespace AtenasCore.Server.Mappers
 {
     public static class TransactionMappers{
 
-        public static Transaction  ToTransactionFromCreateDto(this CreateTransactionDto transactionDto){
+        public static Transaction  ToTransaction(this CreateTransactionDto transactionDto){
 
             return new Transaction {
                 AppUserId=transactionDto.AppUserId,
@@ -17,7 +17,7 @@ namespace AtenasCore.Server.Mappers
 
         }
 
-        public static TransactionDto  ToCreateDtoFromTransaction(this Transaction transaction){
+        public static TransactionDto  ToTransactionDto(this Transaction transaction){
 
             return new TransactionDto{
                 AppUserId=transaction.AppUserId,

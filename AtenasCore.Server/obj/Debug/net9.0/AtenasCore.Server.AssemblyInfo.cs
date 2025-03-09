@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AtenasCore.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a959a08e0873db26104699f58b9061ebe526ef5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8993d022d2b0c1d4a56762b85ad24de9e3d0e4ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("AtenasCore.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AtenasCore.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
